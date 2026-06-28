@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+yolo-env/
+venv/
+.venv/
+
+# Model weights (auto-downloaded by ultralytics on first run - don't commit, too large)
+*.pt
+*.onnx
+*.hef
+
+# Runtime-generated artifacts
+detections.db
+snapshots/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
