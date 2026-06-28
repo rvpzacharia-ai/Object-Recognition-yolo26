@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Real-Time Object Recognition (YOLO26n)
 
 Real-time object detection demo using **YOLO26n** (Ultralytics, 2026's edge-first NMS-free architecture), OpenCV, SQLite logging, and optional voice feedback. Built as Phase 1 of a larger pipeline — this same model/workflow is designed to later be exported and deployed on a **Raspberry Pi 5 + Hailo NPU** for integration into a humanoid robot's perception stack.
@@ -21,7 +20,6 @@ Real-time object detection demo using **YOLO26n** (Ultralytics, 2026's edge-firs
 | Voice feedback | pyttsx3 |
 
 ## Setup
-
 ```bash
 python -m venv yolo-env
 yolo-env\Scripts\activate          # Windows
@@ -32,11 +30,9 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-
 ```bash
 python object_recognition_demo.py
 ```
-
 - Press **q** to quit
 - Press **s** to save a snapshot of the current frame
 
@@ -50,6 +46,3 @@ On exit, a session summary is printed and the full detection log is available in
 
 ## License
 MIT
-=======
-# Object-Recognition-yolo26
->>>>>>> 435ed75aced62007c97da569a062c69e09d26c4f
